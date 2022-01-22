@@ -8,11 +8,11 @@ module.exports = {
     development: {
         client: 'mysql',
         connection: {
-            host: process.env.HOST,
-            port: process.env.PORT,
-            user: process.env.USER,
-            password: process.env.PASSWORD,
-            database: process.env.DATABASE
+            host: '127.0.0.1',
+            port: '3306',
+            user: 'root',
+            password: '',
+            database: 'fullstack'
         }
     },
 
